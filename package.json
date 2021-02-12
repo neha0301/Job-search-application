@@ -5,12 +5,21 @@
   "main": "app.js",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "brain.js": "^2.0.0-beta.2",
     "brainjs": "^0.7.4",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
+    "express-session": "^1.17.1",
     "firebase": "^8.2.6",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.4.0",
     "mongoose": "^5.11.15",
-    "react-firebase-hooks": "^2.2.0"
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0",
+    "react-firebase-hooks": "^2.2.0",
+    "request": "^2.88.2",
+    "require": "^2.4.20"
   },
   "devDependencies": {},
   "scripts": {
