@@ -1,0 +1,43 @@
+[
+	{"skills": "python R analytics machine learning data science",
+	 "predict": "Data scientist roles"
+	},
+	{"skills": "cpp c java python javascript html css django flask flutter android php",
+	 "predict": "Back-end developer"
+	},
+	{"skills": "react js angular bootstrap vanilla javascript html css",
+	 "predict": "Front-end developer"
+	},
+	{"skills": "java python javascript html css django flask flutter android php react js angular bootstrap vanilla javascript html css",
+	 "predict": "Full-stack Developer"
+	},
+	{
+		"skills": "database management pthon R analytics sql oracle",
+		"predict": "Data-engineer roles"
+	},
+	{
+		"skills": "microprocessor assembly language c c#",
+		"predict": "Embedded design roles"
+	},
+	{"skills": "javascript html css",
+	 "predict": "Front-end developer"
+	},
+	{"skills": "react js angular bootstrap",
+	 "predict": "Front-end developer"
+	},
+	{"skills": "angular bootstrap vanilla javascript html css",
+	 "predict": "Front-end developer"
+	},
+	{
+		"skills": "database management",
+		"predict": "Data-engineer roles"
+	},
+	{
+		"skills": "database management python R",
+		"predict": "Data-engineer roles"
+	},
+	{
+		"skills": "sql oracle",
+		"predict": "Data-engineer roles"
+	}
+]
