@@ -14,4 +14,6 @@ a. Activate the mongod server
 In another terminal run the node.js app:
 1. PORT=3000 node app.js
 
+Link for video description: https://vimeo.com/511689122
+
 
