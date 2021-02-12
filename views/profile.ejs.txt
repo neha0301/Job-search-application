@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Jobify me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Jobify Me!</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="/job_search/home">Home</a></li>
+	  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Profile<span class="caret"></span></a>  
+			<ul class="dropdown-menu" role="menu">
+            <li><a href="#">Complete Profile</a></li>
+             <li><a href="/logout">Log Out</a></li>
+            </ul>
+	   </li>
+    </ul>
+  </div>
+</nav>	
+	
+<div class="container">
+  <div class="jumbotron text-center">
+	  <h2>
+		  Complete your Profile
+	  </h2>
+	</div>
+	<form action="/profile" method="POST">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="text" class="form-control" id="email" placeholder="Enter Email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="experience">Enter your work experience:</label>
+      <input type="text" class="form-control" id="experience" placeholder="Enter experience" name="experience">
+    </div>
+	<div class="form-group">
+      <label for="laid">Have you recently been laid off due to pandemic? (yes/no):</label>
+      <input type="text" class="form-control" id="laid" placeholder="Enter yes or no" name="laid">
+    </div>
+	<div class="form-group">
+      <label for="skills2">Enter your skills:</label>
+      <input type="text" class="form-control" id="skills2" placeholder="Enter skills" name="skills2">
+		</div>
+    <button type="submit" class="btn btn-default">Done</button>
+  </form>
+</div>

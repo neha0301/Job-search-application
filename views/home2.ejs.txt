@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Jobify me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Jobify Me!</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="/job_search/home">Home</a></li>
+	  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Profile<span class="caret"></span></a>  
+			<ul class="dropdown-menu" role="menu">
+            <li><a href="/profile">Complete Profile</a></li>
+             <li><a href="/logout">Log Out</a></li>
+            </ul>
+	   </li>
+    </ul>
+  </div>
+</nav>	
+	
+	
+<div class="jumbotron text-center">
+  <h1>Welcome!</h1>
+  <div class="btn-group-vertical">
+  <div class="container">
+  <a href="#" class="btn btn-info" role="button" data-toggle="collapse" data-target="#demo">Search for jobs</a>
+  <div id="demo" class="collapse">
+    You can find a number of jobs that are daily posted on our portal. You can filter the search results according to the
+	roles you wish to apply for, the industry experience you are looking for, the location you prefer, and the rating for
+	the job posted. <a href="/jobs" class="btn btn-primary" role="button"> Search and apply</a>
+  </div>
+	</div>
+  <div class="container">
+  <a href="#" class="btn btn-info" role="button" data-toggle="collapse" data-target="#demo1">Skill Test</a>
+  <div id="demo1" class="collapse">
+    Skill tests helps you identify your best interests and skills and suggests you the roles accordingly.
+	You skill test performance is shared along with your resume with the employer to increase your chances
+	of getting hired. <a href="/job_search/skillquiz" class="btn btn-primary" role="button"> Take the skill test</a>
+  </div>
+  </div>
+  <div class="container">
+  <a href="#" class="btn btn-info" role="button" data-toggle="collapse" data-target="#demo2">Post Job</a>
+  <div id="demo2" class="collapse">
+    At Jobify we make sure the best talent reaches the recruiters! Post your Job opening here to let candidates apply 
+	to your opening.<a href="/form3" class="btn btn-primary" role="button"> Post a Job</a>
+  </div>
+  </div>
+	</div>
+</div>
+	
+<div class="container">
+	<h1>How to get the right skill set?</h1>
+	<p>At Jobify you can connect to various mentors that will be up to help you!</p>
+	<p>You can contact any of the mentioned below!</p>
+	<div class="btn-group-vertical">
+		<a href="#" class="btn btn-primary" role="button"> Alan, Technical Consultant at Jobify </a>
+		<a href="#" class="btn btn-primary" role="button"> Phoebe, Web Developer mentor at Jobify </a>
+		<a href="#" class="btn btn-primary" role="button"> Norman, Data Engineer mentor at Jobify </a>
+		<a href="#" class="btn btn-primary" role="button"> Alex, Full stack mentor at Jobify </a>
+	</div>
+<p>Describe your major shortcoming or problems you are facing, our mentors will help you!</p>
+<div class="form-group">
+  <label for="comment">Write in your query so we can help</label>
+  <textarea class="form-control" rows="5" id="comment"></textarea>
+	<a href="#" class="btn btn-info" data-toggle="collapse" data-target="#demo3" role="button">Submit</a>
+	<div id="demo3" class="collapse">
+		Thanks for submitting! Our mentors will reach out to you shortly!
+	</div>
+</div>
+</div>

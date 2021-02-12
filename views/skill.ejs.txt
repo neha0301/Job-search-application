@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Jobify me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Jobify Me!</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="/job_search/home">Home</a></li>
+	  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Profile<span class="caret"></span></a>  
+			<ul class="dropdown-menu" role="menu">
+            <li><a href="#">Complete Profile</a></li>
+             <li><a href="/job_search/logout">Log Out</a></li>
+            </ul>
+	   </li>
+    </ul>
+  </div>
+</nav>	
+<% var weight=0; %>
+<div class="jumbotron text-center">
+	<h1>Ready to take the Jobify skilll test?</h1>
+	<p>The Jobify skill test helps you identify your best interests and skill spots, so that you can ace it in the right direction. The skill quotient you obtain from this test helps you realise your shortcomings and makes it east for you to decide which roles would be just suitable for you!</p>
+</div>	
+<div class="container">
+	<ul>
+	<li>After answering the question, hit the submit button to get your skill quotient.</li>
+	</ul>
+</div>
+	
+<div class="container">
+  <form action="/job_search/skillquiz/result" method="POST">
+    <div class="form-group">
+      <label for="">Enter your skill set</label>
+      <input type="text" name="experience">
+    </div>
+	  <div class="form-group">
+      <label for="">1. What's the git command that downloads your repository from GitHub to your computer?</label>
+      <input type="text" name="q1">
+    </div>
+	<div class="form-group">
+      <label for="">2. What's the opposite of git clone, instead of downloading your code from GitHub, uploads your changes and code back to GitHub?</label>
+      <input type="text" name="q2">
+    </div>
+	  <div class="form-group">
+      <label for="">3. What comes first, staging with git add . or committing with git commit?</label>
+      <input type="text" name="q3">
+    </div>
+	 <div class="form-group">
+      <label for="">4. Which of the following statement is valid to use a Node module http in a Node based application?</label>
+      <input type="text" name="q4">
+    </div>
+	 <div class="form-group">
+      <label for="">5. Which command will show version of Node?</label>
+      <input type="text" name="q5">
+    </div>
+	 <div class="form-group">
+      <label for="">6. What is the default value of byte variable in java?</label>
+      <input type="text" name="q6">
+    </div>
+	  <div class="form-group">
+      <label for="">7. Write command to create an empty set in Python?</label>
+      <input type="text" name="q7">
+    </div> 
+	  <div class="form-group">
+      <label for="">8. Which method is used to convert raw byte data to a string?</label>
+      <input type="text" name="q8">
+    </div> 
+	  <div class="form-group">
+      <label for="">9. Can :: operator be overloaded in c++?</label>
+      <input type="text" name="q9">
+    </div> 
+	  <div class="form-group">
+      <label for="">10. HAS-A relationship between the classes is shown through ..</label>
+      <input type="text" name="q10">
+    </div> 
+	  <div class="form-group">
+      <label for="">11. The following operator can be used to calculate the value of one number raised to another in python</label>
+      <input type="text" name="q11">
+    </div>
+	 <div class="form-group">
+      <label for="">12. Which of the following is the address operator in c++?</label>
+      <input type="text" name="q12">
+    </div>
+	  <div class="form-group">
+      <label for="">13. What invokes a thread's run() method in java?</label>
+      <input type="text" name="q13">
+    </div>
+	  <div class="form-group">
+      <label for="">14. Name an  interface with no method in java</label>
+      <input type="text" name="q14">
+    </div>
+	  <div class="form-group">
+      <label for="">15. Which method of fs module is used to close a file?</label>
+      <input type="text" name="q15">
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</html>
